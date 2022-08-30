@@ -85,7 +85,7 @@ header>strong{
 /* list */
 
 #conteiner_list{
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-left: 2rem;
     font-family: Arial,sans-serif;
 }
@@ -108,22 +108,40 @@ header>strong{
     background-color: var(--light_blue);
     border-radius: 15px;
     padding: 0.5rem;
+    color: var(--white);
 }
 
 .goals{
     background-color: var(--purple);
     border-radius: 15px;
     padding: 0.5rem;
+    color: var(--white);
 }
 
 .recruiting{
     background-color: var(--dark_green);
     border-radius: 15px;
     padding: 0.5rem;
+    color: var(--white);
 }
 
 .mobile{
     background-color: var(--orange);
     border-radius: 15px;
     padding: 0.5rem;
+    color: var(--white);
+}
+
+.website{
+    background-color: var(--pink);
+    border-radius: 15px;
+    padding: 0.5rem;
+    color: var(--white);
+}
+
+.sales{
+    background-color: var(--green);
+    border-radius: 15px;
+    padding: 0.5rem;
+    color: var(--white);
 }
