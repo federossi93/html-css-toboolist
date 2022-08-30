@@ -20,6 +20,12 @@
 
 --gray: #D3D8DB;
 
+--red:#EB5952;
+
+}
+
+.space{
+    padding-bottom: 2rem;
 }
 
 /* utilitities */
@@ -91,8 +97,33 @@ header>strong{
     padding: 0.2rem;
 }
 
-.highlighted{
+.not_check_mark{
+    color: var(--red);
+    border: 1px solid var(--red);
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+
+.editorial{
     background-color: var(--light_blue);
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+.goals{
+    background-color: var(--purple);
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+.recruiting{
+    background-color: var(--dark_green);
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+.mobile{
+    background-color: var(--orange);
     border-radius: 15px;
     padding: 0.5rem;
 }
