@@ -19,3 +19,19 @@
 }
 
 /* color */
+
+body{
+    background-color: var(--dark_wite);
+}
+
+#site_header{
+    background-color: var(--white);
+}
+
+header>strong{
+    font-size: 3rem;
+    vertical-align: top;
+    font-family: Arial,sans-serif;
+}
+
+/* header */
