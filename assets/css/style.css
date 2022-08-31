@@ -25,7 +25,7 @@
 }
 
 .space{
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* utilitities */
@@ -71,18 +71,18 @@ header>strong{
 }
 
 .button{
-    padding: 0.4rem;
+    padding: 0.4rem 1rem;
     border-radius: 5px;
     border-style: solid;
 }
 
-.bg_button{
+.bg_task{
     background-color: var(--light_blue);
     color: var(--white);
     border-color: var(--light_blue);
 }
 
-.bg_button_r{
+.bg_section{
     background-color: var(--white);
     color: var(--gray);
     border-color: var(--gray);
@@ -91,8 +91,8 @@ header>strong{
 /* list */
 
 .conteiner_list{
-    padding-top: 1rem;
-    padding-left: 2rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
     font-family: Arial,sans-serif;
 }
 
@@ -118,7 +118,7 @@ header>strong{
 
 .selection{
     border-radius: 15px;
-    padding: 0.5rem;
+    padding: 0.3rem 1rem;
     color: var(--white);
 }
 
